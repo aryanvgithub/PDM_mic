@@ -56,7 +56,7 @@
 #ifdef PICO_BUILD
 #define FILTER_GAIN     Param->Gain
 #else
-#define FILTER_GAIN     8
+#define FILTER_GAIN     2
 #endif
  
 #define HTONS(A) ((((uint16_t)(A) & 0xff00) >> 8) | \
